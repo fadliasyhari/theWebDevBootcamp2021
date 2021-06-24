@@ -63,8 +63,32 @@
     </form>
     <h3>Search Youtube</h3>
     <form action="https://www.youtube.com/results">
-    <input type="text" name="search_query">
-    <button>Search Youtube</button>
+      <input type="text" name="search_query" />
+      <button>Search Youtube</button>
+    </form>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I agree to everything</label>
+      <p>
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="xs">
+        <label for="s">S:</label>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="m">M:</label>
+        <input type="radio" name="size" id="m" value="m">
+        
+      </p>
+      <p>
+        <label for="meal">Please Select an Entree</label>
+        <select name="meal" id="meal">
+          <option value="fish">Fish</option>
+          <option value="veg">Vegetarian</option>
+          <option value="steak">Steak</option>
+        </select>
+      </p>
+      <button>Submit</button>
     </form>
   </body>
 </html>
