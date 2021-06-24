@@ -22,9 +22,21 @@
         <input type="color" id="color" />
       </p>
       <p>
-        <label for="number">Enter a Number:</label>
-        <input type="number" placeholder="enter a number" id="number"/>
+        <!-- Alternative way to label an input (less common) -->
+        <label>
+          Enter a Number:
+          <input type="number" placeholder="enter a number"/>
+        </label>
       </p>
+      <!-- this button doesn't submit the form b/c of the "type" attribute -->
+      <button type="button">Regular button (won't submit)</button>
+      <!-- This button submit the from! -->
+      <button>Submit!!</button>
+      <!-- So does this one: -->
+      <input type="submit" value="Click Me!" name="" id="">
     </form>
+    <hr>
+    <!-- Outside of a form, no default behavior -->
+    <button>Not Inside Form</button>
   </body>
 </html>
