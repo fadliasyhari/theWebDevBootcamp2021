@@ -8,24 +8,26 @@
   </head>
   <body>
     <h1>Forms Demo</h1>
+    file:///tacos?username=rafif&password=rafifnavya&color=%23ff0000&num=1231
+    
     <form action="/tacos">
       <p>
         <label for="username">Enter a Username:</label>
-        <input id="username" type="text" placeholder="username" />
+        <input id="username" type="text" placeholder="username" name="username" />
       </p>
       <p>
         <label for="password">Enter a Password:</label>
-        <input type="password" placeholder="password" id="password" />
+        <input type="password" placeholder="password" id="password" name="password" />
       </p>
       <p>
         <label for="color">Enter a Color:</label>
-        <input type="color" id="color" />
+        <input type="color" id="color" name="color"/>
       </p>
       <p>
         <!-- Alternative way to label an input (less common) -->
         <label>
           Enter a Number:
-          <input type="number" placeholder="enter a number"/>
+          <input type="number" placeholder="enter a number" name="num"/>
         </label>
       </p>
       <!-- this button doesn't submit the form b/c of the "type" attribute -->
