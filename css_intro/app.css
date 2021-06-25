@@ -1,7 +1,6 @@
 h2 {
-  color: teal;
-  background-color: plum;
-  background: ;
+  color: #2de7eb;
+  background-color: rgb(89, 151, 0);
 }
 
 button {
@@ -11,5 +10,5 @@ button {
 
 p {
   color: olive;
-  background: orange;
+  background: #d8b066;
 }
