@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Race Registration Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Race Registration!</h1>
-    <form action="/race"> 
-    <div>
-        <label for="first-name">First Name</label>
-        <input type="text" name="first-name" id="first-name" required>
-        <label for="last-name">Last Name</label>
-        <input type="text" name="last-name" id="last-name" required>
-    </div>
-    <p>Select a Race:</p>
-    <div>
-        <input type="radio" name="race" id="fun" value="fun-run-5k">
+    <form action="/race">
+      <div>
+        <label for="first">First Name</label>
+        <input type="text" name="firstname" id="first" required />
+        <label for="last">Last Name</label>
+        <input type="text" name="lastname" id="last" required />
+      </div>
+      <p>Select a Race:</p>
+      <div>
+        <input type="radio" name="race" id="fun" value="fun-run-5k" />
         <label for="fun">Fun Run 5k</label>
-        <br>
-        <input type="radio" name="race" id="half" value="half-marathon">
+        <br />
+        <input type="radio" name="race" id="half" value="half-marathon" />
         <label for="half">Half Marathon</label>
-        <br>
-        <input type="radio" name="race" id="full" value="full-marathon">
+        <br />
+        <input type="radio" name="race" id="full" value="full-marathon" />
         <label for="full">Full Marathon</label>
-    </div>
-    <div>
+      </div>
+      <div>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" required />
         <label for="password">Password</label>
-        <input type="password" name="password" id="password" required>
-    </div>
-    <div>
-        <label for="age">Select Age Group</label>
-        <select name="age" id="age">
-            <option value="under-18">Under 18</option>
-            <option value="18-30">18-30</option>
-            <option value="30-50">30-50</option>
-            <option value="50+">50+</option>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <div>
+        <label for="division">Select Age Group</label>
+        <select name="division" id="age">
+          <option value="kids">Under 18</option>
+          <option value="ya">18-30</option>
+          <option value="adults">30-50</option>
+          <option value="seniors">50+</option>
         </select>
-    </div>
-    <button>Register!</button>
+      </div>
+      <button>Register!</button>
     </form>
-
-</body>
+  </body>
 </html>
