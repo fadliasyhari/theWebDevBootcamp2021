@@ -4,7 +4,10 @@ h1 {
     text-decoration: navy wavy underline;
     letter-spacing: 15px;
     font-size: 80px;
+    /* font-family: Segoe UI, Futura, Arial, sans-serif; */
+    font-family: monospace; 
 }
+
 a {
     text-decoration: none;
 }
