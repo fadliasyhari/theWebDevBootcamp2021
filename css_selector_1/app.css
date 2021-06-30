@@ -69,6 +69,13 @@ a[href*="google"]{
     text-decoration: underline;
 }
 
+button:hover {
+  background-color: olive;
+  font-size: 10px;
+}
+
+/* Specificity rule = ID > Class > Element */
+
 .post button:active {
     background-color: #02c39a;
 }
@@ -87,8 +94,4 @@ p::first-line {
 
 p::selection {
     background-color: #fcbf49;
-}
-
-h1, h2 {
-    color: yellow;
 }
