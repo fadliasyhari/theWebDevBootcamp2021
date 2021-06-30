@@ -95,3 +95,9 @@ p::first-line {
 p::selection {
     background-color: #fcbf49;
 }
+
+button {
+  background-color: orchid !important;
+}
+
+/* !important will ignore specificity, auto win style */
