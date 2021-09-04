@@ -14,3 +14,5 @@ try {
   console.log("SOMETHING WENT WRONG!");
   console.log(e);
 }
+
+// command terminal in directory 'file_system': node boilerplate.js Portofolio
